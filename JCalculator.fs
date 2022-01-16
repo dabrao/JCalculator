@@ -7,6 +7,9 @@ type JOperator =
     | Division
     | Modulo
     | Exponentiation
+    | Maximum
+    | Minimum
+    
 
 type JOperation =
     { Operator : JOperator

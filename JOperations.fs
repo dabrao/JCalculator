@@ -14,3 +14,7 @@ module JCalculator.JOperations
           jOperation.FirstOperand % jOperation.SecondOperand
         | Exponentiation ->
           jOperation.FirstOperand ** jOperation.SecondOperand
+        | Maximum ->
+          System.Math.Max (jOperation.FirstOperand, jOperation.SecondOperand)
+        | Minimum ->
+          System.Math.Min (jOperation.FirstOperand, jOperation.SecondOperand)

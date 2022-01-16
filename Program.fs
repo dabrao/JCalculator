@@ -2,7 +2,7 @@
 open JOperations
 
 let test =
-    { Operator = Addition
+    { Operator = Minimum
       FirstOperand = 7.7
       SecondOperand = 2.3 }
 
